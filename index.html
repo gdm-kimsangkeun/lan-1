@@ -1,0 +1,743 @@
+
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <title>골드닥터스 : 병원마케팅</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <meta name="format-detection" content="telephone=no" />
+    <!-- OG -->
+<!-- 
+		<meta name="description" content="정보통신 기기 부품 제조업체, 제품 소개, 기술현황, IR자료 등 정보 수록">
+		<meta property="og:description" content="정보통신 기기 부품 제조업체, 제품 소개, 기술현황, IR자료 등 정보 수록">
+
+		<meta property="og:type" content="website">
+		<meta property="og:title" content="Mobile - INTOPS : GROWING TOGETHER">
+		<meta property="og:image" content="http://intops.co.kr/_data/file/7f8b5bc6bffa0508973c02c2bbdc9c85.png">		<meta property="og:url" content="http://intops.co.kr">
+		<meta name="url" content="http://intops.co.kr">
+		<link rel="canonical" href="http://intops.co.kr" /> -->
+
+    <!-- //OG -->
+
+		
+		
+    <!-- favicon -->
+    <!-- <link rel="apple-touch-icon" sizes="57x57" href="/image/favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/image/favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/image/favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/image/favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/image/favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/image/favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/image/favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/image/favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/image/favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="/image/favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/image/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="/image/favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/image/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/image/favicon/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/image/favicon/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff"> -->
+    <!-- //favicon -->
+    <!-- fonts -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Noto+Sans+KR:100,300,400,500,700,900&display=swap&subset=korean"
+      rel="stylesheet" />
+    <!-- //fonts -->
+    <link type="text/css" rel="stylesheet" href="/static/css/base.css" />
+    <link type="text/css" rel="stylesheet" href="/static/css/layout.css" />
+    <link type="text/css" rel="stylesheet" href="/static/css/common.css" />
+    <link type="text/css" rel="stylesheet" href="/static/css/main.css" />
+    <link type="text/css" rel="stylesheet" href="/static/css/sub.css" />
+    <link type="text/css" rel="stylesheet" href="/static/css/board.css" />
+    <link type="text/css" rel="stylesheet" href="/static/css/splitting.css" />
+    <link type="text/css" rel="stylesheet" href="/static/css/swiper.css" />
+    <link type="text/css" rel="stylesheet" media="screen and (max-width: 1200px)" href="/static/css/main_m.css" />
+    <link type="text/css" rel="stylesheet" media="screen and (max-width: 1200px)" href="/static/css/sub_m.css" />
+    <link type="text/css" rel="stylesheet" href="/static/css/slick.min.css" />
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.css' integrity='sha512-FA9cIbtlP61W0PRtX36P6CGRy0vZs0C2Uw26Q1cMmj3xwhftftymr0sj8/YeezDnRwL9wtWw8ZwtCiTDXlXGjQ==' crossorigin='anonymous'/>
+    <link type="text/css" rel="stylesheet" href="/static/css/jquery.fullpage.css" />
+    <!-- <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script> -->
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.ripples/0.5.3/jquery.ripples.min.js"></script>
+    <script defer type="text/javascript" src="/static/js/masonry.js"></script>
+    <script defer type="text/javascript" src="/static/js/slick.min.js"></script>
+    <script defer type="text/javascript" src="/static/js/slickNav.js"></script>
+    <script defer type="text/javascript" src="/static/js/jquery.fullpage.js"></script>
+    <script defer type="text/javascript" src="/static/js/scrollOverflow.js"></script>
+    <script defer type="text/javascript" src="/static/js/swiper.min.js"></script>
+    <script defer type="text/javascript" src="/static/js/script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/ScrollTrigger.min.js"
+      integrity="sha512-A64Nik4Ql7/W/PJk2RNOmVyC/Chobn5TY08CiKEX50Sdw+33WTOpPJ/63bfWPl0hxiRv1trPs5prKO8CpA7VNQ=="
+      crossorigin="anonymous"></script>
+    <script defer type="text/javascript" src="/static/js/splitting.min.js"></script>
+		<!-- <script type="text/javascript" src="/_data/js/form.js?t=1733111540"></script> -->
+		<script src="https://t1.daumcdn.net/mapjsapi/bundle/postcode/prod/postcode.v2.js"></script>
+        <script>
+            window.addEventListener('DOMContentLoaded', function () {
+              if (window.navigator.userAgent.match(/MSIE|Internet Explorer|Trident/i)) {
+                alert('본 사이트는 Internet Explore 이용이 불가능합니다.');
+                window.open('microsoft-edge:' + window.location.href);
+              } else {
+                document.getElementById('wrap').style.visibility = 'inherit';
+              }
+            });
+          </script>
+  </head>
+
+  <body>
+		    <!--Wrap-->
+    <div id="wrap">
+<!-- 각 메인/서브 메뉴 타이틀명 -->
+
+
+<!--Header-->
+<header class="header top ">
+  <div class="dep02-bg"></div>
+  <div class="inner">
+    <div class="header-logo" style="margin: 0 auto;"><a href="/"><img src="/image/header_logo.png" alt=""></a></div>
+    <!-- <nav class="header-gnb">
+      <div>
+        <a href="/dh/market_mobile" class="header-gnb__dep01 on">Our Market</a>
+        <ul class="header-gnb__dep02">
+          <li>
+            <a href="/dh/market_mobile">Mobile</a>
+          </li>
+          <li>
+            <a href="/dh/market_automobile">Automobile</a>
+          </li>
+          <li>
+            <a href="/dh/market_homeapp">Home Appliance</a>
+          </li>
+          <li>
+            <a href="/dh/market_robot">Robot</a>
+          </li>
+          <li>
+            <a href="/dh/market_medical">Medical Device</a>
+          </li>
+          <li>
+            <a href="/dh/market_material">Material</a>
+          </li>
+        </ul>
+      </div>
+      <div>
+        <a href="/dh/technology_cmf" class="header-gnb__dep01 ">Our Technology</a>
+        <ul class="header-gnb__dep02">
+          <li>
+            <a href="/dh/technology_cmf">CMF Solution</a>
+          </li>
+          <li>
+            <a href="/dh/technology_thermal">Thermal Management</a>
+          </li>
+          <li>
+            <a href="/dh/technology_waterproof">Water-proof Solution</a>
+          </li>
+          <li>
+            <a href="/dh/technology_circuit">Advanced Circuit Solution</a>
+          </li>
+          <li>
+            <a href="/dh/technology_antenna">Antenna Solution</a>
+          </li>
+        </ul>
+      </div>
+      <div>
+        <a href="/dh/capability_design" class="header-gnb__dep01 ">Our Capability</a>
+        <ul class="header-gnb__dep02">
+          <li>
+            <a href="/dh/capability_design">Design</a>
+          </li>
+          <li>
+            <a href="/dh/capability_engineering">Engineering</a>
+          </li>
+          <li>
+            <a href="/dh/capability_manufacturing">Manufacturing</a>
+          </li>
+          <li>
+            <a href="/dh/capability_quality">Quality</a>
+          </li>
+          <li>
+            <a href="/dh/capability_chain">Supply Chain</a>
+          </li>
+        </ul>
+      </div>
+      <div>
+        <a href="/dh/solution_hardware" class="header-gnb__dep01 ">Creative Solution</a>
+        <ul class="header-gnb__dep02">
+          <li>
+            <a href="/dh/solution_hardware">Hardware Startup Accelerating</a>
+          </li>
+          <li>
+            <a href="/dh/solution_cmfplatform">CMF Service Platform</a>
+          </li>
+          <li>
+            <a href="/dh/solution_startup">Startup Investment</a>
+          </li>
+        </ul>
+      </div>
+      <div>
+        <a href="/dh/company_aboutus" class="header-gnb__dep01 ">Company</a>
+        <ul class="header-gnb__dep02">
+          <li>
+            <a href="/dh/company_aboutus">About Us</a>
+          </li>
+          <li>
+            <a href="/dh/company_history">Our History</a>
+          </li>
+          <li>
+            <a href="/dh/company_leadership">Leadership</a>
+          </li>
+          <li>
+            <a href="/dh/company_sustainability01">Sustainability</a>
+          </li>
+          <li>
+            <a href="/dh/company_global">Global Locations</a>
+          </li>
+          <li>
+            <a href="/dh/company_contact">Contact Us </a>
+          </li>
+        </ul>
+      </div>
+      <div class="news">
+        <a href="/dh_board/lists/news" class="header-gnb__dep01 ">News</a>
+      </div>
+      <div>
+        <a href="/dh/investor_disclosure" class="header-gnb__dep01 ">Investor</a>
+        <ul class="header-gnb__dep02">
+          <li>
+            <a href="/dh/investor_disclosure">공시</a>
+          </li>
+          <li>
+            <a href="/dh_board/lists/investor_announce">전자공고</a>
+          </li>
+          <li>
+            <a href="/dh/investor_financial01">재무정보</a>
+          </li>
+          <li>
+            <a href="/dh_board/lists/investor_reference">자료실</a>
+          </li>
+          <li>
+            <a href="/dh/investor_dividend">이사회 / 주주총회</a>
+          </li>
+        </ul>
+      </div>
+      <div>
+        <a href="/dh/careers_ideal" class="header-gnb__dep01 ">Careers</a>
+        <ul class="header-gnb__dep02">
+          <li>
+            <a href="/dh/careers_ideal">인재상</a>
+          </li>
+          <li>
+            <a href="/dh/careers_leadership">인탑스 리더십 모델</a>
+          </li>
+          <li>
+            <a href="/dh/careers_personnel">인사제도</a>
+          </li>
+          <li>
+            <a href="/dh/careers_benefits">복리후생</a>
+          </li>
+          <li>
+            <a href="/dh/careers_recruit01">채용</a>
+          </li>
+        </ul>
+      </div>
+    </nav> -->
+     <!-- <div class="header-util">
+      <nav class="header-lang">
+        <a href="/" class="active">KR</a>
+        <a href="/_ENG">EN</a>
+       </nav>
+       <div class="hamburger-btn">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+     </div> -->
+  </div>
+      <!-- <div class="nav-bar">
+              <a href="/dh/market_mobile" class="on">Mobile</a>
+        <a href="/dh/market_automobile" class="">Automobile</a>
+        <a href="/dh/market_homeapp" class="">Home Appliance</a>
+        <a href="/dh/market_robot" class="">Robot</a>
+        <a href="/dh/market_medical" class="">Medical Device</a>
+        <a href="/dh/market_material" class="">Material</a>
+          </div> -->
+  </header>
+<nav class="header-side">
+  <!-- <div class="inner">
+    <div class="inner02">
+      <div>
+        <a href="/dh/market_mobile" class="header-side__dep01 pc">Our Market</a>        
+        <button class="header-side__dep01 mob">Our Market<img src="/image/side_arrow.svg" alt=""></button>
+        <div class="side-slide__wrap">
+          <ul class="header-side__dep02">
+          <li>
+            <a href="/dh/market_mobile">Mobile</a>
+          </li>
+          <li>
+            <a href="/dh/market_automobile">Automobile</a>
+          </li>
+          <li>
+            <a href="/dh/market_homeapp">Home Appliance</a>
+          </li>
+          <li>
+            <a href="/dh/market_robot">Robot</a>
+          </li>
+          <li>
+            <a href="/dh/market_medical">Medical Device</a>
+          </li>
+          <li>
+            <a href="/dh/market_material">Material</a>
+          </li>
+        </ul>
+        </div>
+      </div>
+      <div>
+        <a href="/dh/technology_cmf" class="header-side__dep01 pc">Our Technology</a>        
+        <button class="header-side__dep01 mob">Our Technology<img src="/image/side_arrow.svg" alt=""></button>
+        <div class="side-slide__wrap">
+          <ul class="header-side__dep02">
+            <li>
+              <a href="/dh/technology_cmf">CMF Solution</a>
+            </li>
+            <li>
+              <a href="/dh/technology_thermal">Thermal Management</a>
+            </li>
+            <li>
+              <a href="/dh/technology_waterproof">Water-proof Solution</a>
+            </li>
+            <li>
+              <a href="/dh/technology_circuit">Advanced Circuit Solution</a>
+            </li>
+            <li>
+              <a href="/dh/technology_antenna">Antenna Solution</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div>
+        <a href="/dh/capability_design" class="header-side__dep01 pc">Our Capability</a>        
+        <button class="header-side__dep01 mob">Our Capability<img src="/image/side_arrow.svg" alt=""></button>
+        <div class="side-slide__wrap">
+          <ul class="header-side__dep02">
+          <li>
+            <a href="/dh/capability_design">Design</a>
+          </li>
+          <li>
+            <a href="/dh/capability_engineering">Engineering</a>
+          </li>
+          <li>
+            <a href="/dh/capability_manufacturing">Manufacturing</a>
+          </li>
+          <li>
+            <a href="/dh/capability_quality">Quality</a>
+          </li>
+          <li>
+            <a href="/dh/capability_chain">Supply Chain</a>
+          </li>
+        </ul>
+        </div>
+      </div>
+      <div>
+        <a href="/dh/solution_hardware" class="header-side__dep01 pc">Creative Solution</a>        
+        <button class="header-side__dep01 mob">Creative Solution<img src="/image/side_arrow.svg" alt=""></button>
+        <div class="side-slide__wrap">
+          <ul class="header-side__dep02">
+          <li>
+            <a href="/dh/solution_hardware">Hardware Startup Accelerating</a>
+          </li>
+          <li>
+            <a href="/dh/solution_cmfplatform">CMF Service Platform</a>
+          </li>
+          <li>
+            <a href="/dh/solution_startup">Startup Investment</a>
+          </li>
+        </ul>
+        </div>
+      </div>
+      <div>
+        <a href="/dh/company_aboutus" class="header-side__dep01 pc">Company</a>        
+        <button class="header-side__dep01 mob">Company<img src="/image/side_arrow.svg" alt=""></button>
+        <div class="side-slide__wrap">
+          <ul class="header-side__dep02">
+          <li>
+            <a href="/dh/company_aboutus">About Us</a>
+          </li>
+          <li>
+            <a href="/dh/company_history">Our History</a>
+          </li>
+          <li>
+            <a href="/dh/company_leadership">Leadership</a>
+          </li>
+          <li>
+            <a href="/dh/company_sustainability01">Sustainability</a>
+          </li>
+          <li>
+            <a href="/dh/company_global">Global Locations</a>
+          </li>
+          <li>
+            <a href="/dh/company_contact">Contact Us </a>
+          </li>
+        </ul>
+        </div>
+      </div>
+      <div>
+        <a href="/dh_board/lists/news" class="header-side__dep01 pc">News</a>        
+        <button class="header-side__dep01 mob">News<img src="/image/side_arrow.svg" alt=""></button>
+        <div class="side-slide__wrap">
+          <ul class="header-side__dep02">
+          <li>
+            <a href="/dh_board/lists/news">News</a>
+          </li>
+        </ul>
+        </div>
+      </div>
+      <div>
+        <a href="/dh/investor_disclosure" class="header-side__dep01 pc">Investor</a>        
+        <button class="header-side__dep01 mob">Investor<img src="/image/side_arrow.svg" alt=""></button>
+        <div class="side-slide__wrap">
+          <ul class="header-side__dep02">
+          <li>
+            <a href="/dh/investor_disclosure">공시</a>
+          </li>
+          <li>
+            <a href="/dh_board/lists/investor_announce">전자공고</a>
+          </li>
+          <li>
+            <a href="/dh/investor_financial01">재무정보</a>
+          </li>
+          <li>
+            <a href="/dh_board/lists/investor_reference">자료실</a>
+          </li>
+          <li>
+            <a href="/dh/investor_dividend">이사회 / 주주총회</a>
+          </li>
+        </ul>
+        </div>
+      </div>
+      <div>
+        <a href="/dh/careers_ideal" class="header-side__dep01 pc">Careers</a>        
+        <button class="header-side__dep01 mob">Careers<img src="/image/side_arrow.svg" alt=""></button>
+        <div class="side-slide__wrap">
+          <ul class="header-side__dep02">
+          <li>
+            <a href="/dh/careers_ideal">인재상</a>
+          </li>
+          <li>
+            <a href="/dh/careers_leadership">인탑스 리더십 모델</a>
+          </li>
+          <li>
+            <a href="/dh/careers_personnel">인사제도</a>
+          </li>
+          <li>
+            <a href="/dh/careers_benefits">복리후생</a>
+          </li>
+          <li>
+            <a href="/dh/careers_recruit01">채용</a>
+          </li>
+        </ul>
+        </div>
+      </div>
+    </div>
+    <div class="header-side__util">
+      <a href="/dh/terms">개인정보 처리방침</a>
+      <a href="/dh/company_sustainability05">부정제보 및 불공정거래 신고</a>
+      <a href="https://www.youtube.com/@the_unicornlab" target="_blank"><img src="/image/youtube_icon.svg" alt=""></a>
+    </div>
+  </div> -->
+</nav>
+<!--END Header-->  <div class="market-screen">
+    <div class="market-intro">
+      <h2 class="fade-in__right">Our Market</h2>
+      <h3 >Mobile</h3>
+    </div>
+  </div>
+
+
+
+
+<!--Container-->
+<div id="container" class="sub-page market">
+  <div class="content">
+		<style>
+  .market-visual {
+    background-image: url('/image/svK0101.jpg');
+  }
+  @media all and (max-width: 720px) {
+    .market-visual {
+      background-image: url('/image/svK0101_m.jpg');
+    }
+  }
+</style>
+<div class="market-visual">
+  <div class="market-visual__bg"></div>
+  <ul class="market-txt">
+    <li class="market01 market-intro">
+      <h2 class="fade-in__right">Our Market</h2>
+      <h3>Mobile</h3>
+    </li>
+    <li class="market02 market-intro">
+      <p>
+        Mobile 시장<br>
+        : <span>끊임없는 혁신의 세계</span>
+      </p>
+    </li>
+  </ul>
+  <div class="market-scroll">
+    <span><img src="/image/market_arrow.svg" alt=""></span>
+    <span><img src="/image/market_arrow.svg" alt=""></span>
+  </div>
+</div>		<div class="market-content inner">
+			<div class="inner02 fade-in">
+				<p class="market-content__top fade-in__ele">
+
+
+
+                    골드닥터스는 병원과 의원을 대상으로 전문적인 광고 및 마케팅 서비스를 제공하는 기업으로,<br class="hide-720">
+                    2013년 설립 이래 병원의 브랜드 가치를 높이고 신규 환자 유치를 위한 맞춤형 솔루션을 제시해왔습니다.<br><br>
+
+                    현재까지 전국 350개 이상의 의료기관과 협업하며, 의료 마케팅 분야에서 신뢰받는 파트너로 자리매김하고 있습니다.
+				</p>
+			</div>
+			<div class="market-banner mobile">
+				<div class="market-banner__screen"></div>
+				<div class="inner02">
+					<p><span></span>Mobile</p>
+				</div>
+			</div>
+			<ul class="market-list inner02 fade-in delay">
+				<li class="fade-in__ele">
+					<h4>시장 및 기술 추세</h4>
+					<div class="market-list__desc">
+						<p>
+              스마트폰은 5G와 접는 화면 기술로 새로운사용자 경험을 제공하고 있으며,스마트와치는 건강 모니터링 등 사람에게 보다 밀접한 Lift Service 제공 하고 있고,
+노트북 및 태블릿PC는 AI와 고성능 프로세서로 보다 가벼우면서도 강력한 성능을 낼 수 있는 추세로 발전하고 있습니다.
+						</p>
+					</div>
+				</li>
+				<li class="fade-in__ele">
+					<h4>주요 제품 소개</h4>
+					<div class="market-list__desc">
+						<ul>
+							<li>
+                <figure>
+                  <img src="/image/market_mobile01.png" alt="주요 제품 이미지">
+                  <figcaption class="sub-desc01">Smart Phone</figcaption>
+                </figure>
+							</li>
+							<li>
+                <figure>
+                  <img src="/image/market_mobile02.png" alt="주요 제품 이미지">
+                  <figcaption class="sub-desc01">Smart Phone</figcaption>
+                </figure>
+							</li>
+              <li>
+                <figure>
+                  <img src="/image/market_mobile03.png" alt="주요 제품 이미지">
+                  <figcaption class="sub-desc01">Tablet PC</figcaption>
+                </figure>
+							</li>
+              <li>
+                <figure>
+                  <img src="/image/market_mobile04.png" alt="주요 제품 이미지">
+                  <figcaption class="sub-desc01">Bluetooth EarPhone</figcaption>
+                </figure>
+							</li>
+						</ul>
+					</div>
+				</li>
+			</ul>
+		</div>
+  </div>
+  <section class="sub-top K05" style="margin-top: 150px; ">
+    <div class="inner02 fade-in">
+      <h2 class="fade-in__right" style="translate: none; rotate: none; scale: none; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">Company</h2>
+      <h3 data-splitting="" class="split-style words chars splitting on" style="--word-total: 2; --char-total: 7;"><span class="word" data-word="About" style="--word-index: 0;"><span class="char" data-char="A" style="--char-index: 0;">A</span><span class="char" data-char="b" style="--char-index: 1;">b</span><span class="char" data-char="o" style="--char-index: 2;">o</span><span class="char" data-char="u" style="--char-index: 3;">u</span><span class="char" data-char="t" style="--char-index: 4;">t</span></span><span class="whitespace"> </span><span class="word" data-word="Us" style="--word-index: 1;"><span class="char" data-char="U" style="--char-index: 5;">U</span><span class="char" data-char="s" style="--char-index: 6;">s</span></span></h3>
+    </div>
+    <div class="sub-top__frame" style="translate: none; rotate: none; scale: none; opacity: 1; visibility: inherit; transform: translate(0px, 0px); clip-path: circle(100vw at 50vw 50%);">
+              <div class="sub-top__img" style="background-image: url(&quot;/image/svK0501.jpg&quot;); background-size: 100vmax;"></div>
+        <div class="sub-top__img hide-default show-720" style="background-image: url(&quot;/image/svK0501_m.jpg&quot;); background-size: 100vmax;"></div>
+          </div>
+  </section>
+  <div class="content aboutus" style="padding-top: 120px !important;">
+    <div class="inner02 company-top fade-anim" style="translate: none; rotate: none; scale: none; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">
+      <p>
+        인탑스는 EMS(Electronic Manufacturing<br class="hide-default show-720"> Service, 전자 제조 서비스)<br>
+        전문기업으로 모바일기기 부품 / 자동차부품 /<br class="hide-default show-720"> 가전기기 부품 / 메디컬 디바이스 /<br>
+        로봇 / 화장품 케이스 및 라이프 스타일 제품을<br class="hide-default show-720"> 생산하고 있습니다.
+      </p>
+      <p class="sub-desc01">
+        디자인적 차별성과 제품의 완성도를 높여주는 풍부한 CMF(Color, Material, Finish) 경험을 바탕으로<br class="hide-720">
+        플라스틱 사출, 금속 표면처리, 패브릭 및 복합 소재 등의 소재 활용, 초경도 코팅과 박막 코팅을 포함한 다양한 기술을 제공함으로써<br class="hide-720">
+        고객사가 보다 창의적인 제품을 디자인하고 생산할 수 있도록 지원합니다.<br>
+        <br>
+        글로벌 기업이 요구하는 높은 수준의 품질뿐만 아니라
+        <br class="hide-720">
+        기술력과 생산성, 대응력은 제조 전문 기업이 고객의 신뢰를 얻기 위해 필수적으로 갖춰야 할 역량입니다.
+        <br>
+        인탑스는 글로벌기업의 BEST 파트너로서 그 역량을 인정받고 있습니다.
+      </p>
+    </div>
+    <div class="company-img fade-anim" style="translate: none; rotate: none; scale: none; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">
+      <img src="/image/aboutus_img01.jpg" alt="글로벌 이미지">
+      <div class="company-screen" style="width: 0px;"></div>
+    </div>
+    <div class="inner02">
+      <section id="sec1" class="tech-sec">
+        <h4 class="sub-stit01 fade-anim" style="translate: none; rotate: none; scale: none; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">Mission</h4>
+        <article>
+          <div class="career-typo fade-anim" style="translate: none; rotate: none; scale: none; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">
+            <div class="career-typo__anim"><p style="background-position: -124.913% -75.0866%;">Growing Together</p></div>
+          </div>
+          <p class="tech-tit01 fade-anim" style="translate: none; rotate: none; scale: none; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">
+          올바른 제조 과정을 통해 제품을 만들어 우리를 둘러싼 모든 구성원들과 함께 성장합니다.
+          </p>
+          <figure class="tech-img01 fade-anim" style="translate: none; rotate: none; scale: none; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">
+            <img src="/image/aboutus_img02.jpg" alt="Mission">
+          </figure>
+        </article>
+      </section>
+      <section id="sec2" class="tech-sec">
+        <h4 class="sub-stit01 fade-anim" style="translate: none; rotate: none; scale: none; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">Vision</h4>
+        <article>
+          <p class="tech-tit01 fade-anim" style="translate: none; rotate: none; scale: none; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">
+          지속가능한 방식으로 제품을 만들어 전세계 모든 커뮤니티에 긍정적인 변화를 가져오는 기업이 되겠습니다. 
+          </p>
+          <figure class="tech-img01 fade-anim" style="translate: none; rotate: none; scale: none; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">
+            <img src="/image/aboutus_img03.jpg" alt="Vision">
+          </figure>
+        </article>
+      </section>
+      <section id="sec3" class="tech-sec">
+        <h4 class="sub-stit01 fade-anim" style="translate: none; rotate: none; scale: none; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">Values</h4>
+        <article>
+          <p class="tech-tit01 fade-anim" style="translate: none; rotate: none; scale: none; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">
+            우리는 동반 성장, 행복 증진, 원칙 준수, 열린 소통, 창의적 사고, 그리고 열정을 통해 지속 가능한 미래를 향해 나아가며, 이러한 가치를 바탕으로 우리와 함께하는 구성원과 사회와 공동의 가치를 창출하고자 합니다.
+          </p>
+          <ul class="about-values tech-desc">
+            <li class="fade-anim" style="translate: none; rotate: none; scale: none; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">
+              <span>01</span>
+              <div>
+                <b>동반 성장</b>
+                <p class="p02">인탑스의 가족, 고객사와 협력사 그리고 우리가 속한 사회의 함께 성장하기 위해 노력합니다.</p>
+              </div>
+              <figure>
+                <img src="/image/aboutus_icon01.png" alt="동반 성장">
+              </figure>
+            </li>
+            <li class="fade-anim" style="translate: none; rotate: none; scale: none; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">
+              <span>02</span>
+              <div>
+                <b>행복증진</b>
+                <p class="p02">우리는 제품과 서비스를 통해 사람들의 행복을 증진시키고자 합니다. 이를 위해 우리는 사용의 경험과 만족도를 최우선으로 생각하며, 이를 기반으로 지속적인 개선과 혁신을 추진합니다.</p>
+              </div>
+              <figure>
+                <img src="/image/aboutus_icon02.png" alt="행복증진">
+              </figure>
+            </li>
+            <li class="fade-anim" style="translate: none; rotate: none; scale: none; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">
+              <span>03</span>
+              <div>
+                <b>기본과 원칙의 준수</b>
+                <p class="p02">우리의 모든 활동은 기본과 원칙을 충실함을 기반으로 합니다. 품질, 안전, 그리고 윤리적 기준에 대한 끊임없는 노력은 우리가 추구하는 우수성의 핵심입니다. 이를 통해 우리는 고객, 이해관계자, 그리고 사회에 대한 신뢰를 구축하고 유지합니다.</p>
+              </div>
+              <figure>
+                <img src="/image/aboutus_icon03.png" alt="기본과 원칙의 준수">
+              </figure>
+            </li>
+            <li class="fade-anim" style="translate: none; rotate: none; scale: none; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">
+              <span>04</span>
+              <div>
+                <b>열린 소통</b>
+                <p class="p02">항상 상대방의 입장에서 생각하며, 배려와 경청의 마음으로 개방적이고 수평적인 자세로 소통에 임하며 서로의 부족한 점을 보완하고 발전해 나아갑니다.</p>
+              </div>
+              <figure>
+                <img src="/image/aboutus_icon04.png" alt="열린 소통">
+              </figure>
+            </li>
+            <li class="fade-anim" style="translate: none; rotate: none; scale: none; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">
+              <span>05</span>
+              <div>
+                <b>창의적 사고</b>
+                <p class="p02">기술과 트렌드를 선도하며 고정관념 및 관습을 타파하고 끊임없는 자기계발과 유연한 사고로 새로운 가치를 창출합니다.</p>
+              </div>
+              <figure>
+                <img src="/image/aboutus_icon05.png" alt="창의적 사고">
+              </figure>
+            </li>
+            <li class="fade-anim" style="translate: none; rotate: none; scale: none; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">
+              <span>06</span>
+              <div>
+                <b>열정</b>
+                <p class="p02">목표 달성에 대한 강한 열망과 도전정신을 바탕으로 미래에 도전하며 공동의 가치를 창출하기 위해 언제나 신속한 의사결정과 과감한 실행력을 발휘합니다.</p>
+              </div>
+              <figure>
+                <img src="/image/aboutus_icon06.png" alt="열정">
+              </figure>
+            </li>
+          </ul>
+        </article>
+      </section>
+    </div>
+  </div>
+</div>
+<!--END Container--> 
+
+	<!--Footer-->
+	<footer class="footer">
+		<div class="inner">
+			<div class="footer-top">
+				<div class="footer-logo"><img src="/image/logo.png" alt=""></div>
+				<div class="footer-family">
+					<button>Family Site <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 22 22" fill="none">
+						<path d="M17.75 9.875H12.125V4.25H9.875V9.875H4.25V12.125H9.875V17.75H12.125V12.125H17.75V9.875Z" fill="#201F1E"/>
+						</svg></button>
+					<ul>
+						<li><a href="https://www.hidalab.com/eng/main/index.html" target="_blank">hidalab</a></li>
+						<!-- <li><a href="javascript: ;" onClick="alert('준비중입니다')">grecipe</a></li> -->
+						<li><a href="http://www.grecipe.eco/" target="_blank" >grecipe</a></li>
+						<li><a href="https://www.intopsinv.com/" target="_blank">인탑스인베스트먼트</a></li>
+						<li><a href="https://idream.imweb.me/" target="_blank">인탑스 평산장학재단</a></li>
+						<li><a href="http://www.psacademy.co.kr/" target="_blank">평산아카데미</a></li>
+						<li><a href="https://www.platel.co.kr/" target="_blank">플라텔</a></li>
+						<li><a href="http://miraemotors.com/" target="_blank">미래</a></li>
+						<li><a href="https://paper-program.com/" target="_blank">페이퍼프로그램</a></li>
+					</ul>
+				</div>
+				<div class="footer-sns">
+					<a href="https://www.youtube.com/@the_unicornlab target=_blank"><img src="/image/youtube.svg" alt=""></a>
+					<a href="https://www.instagram.com/the_unicornlab" target="_blank"><img src="/image/instagram.svg" alt=""></a>
+					<a href="https://www.facebook.com/PaperProgram/"target="_blank"><img src="/image/facebook.svg" alt=""></a>
+				</div>
+			</div>
+			<div class="footer-util">
+				<address>
+					<ul>
+						<li class="terms">
+							<a href="/dh/terms">개인정보처리방침</a>
+							<a href="/dh/company_sustainability05">부정제보 및 불공정거래 신고</a>
+						</li>
+						<li>
+							<p>Address :  경기 안양시 만안구 안양천서로 51</p>
+							<p>Tel : 031 - 441 - 4181</p>
+						</li>
+					</ul>
+				</address>
+				<p class="copy">COPYRIGHT &copy;INTOPS. ALL RIGHTS RESERVED.</p>
+			</div>
+		</div>
+    <button class="top-btn hide"><img src="/image/top_btn.png" alt="">Top</button>
+	</footer><!--END Footer-->
+
+ </div><!--END Wrap-->
+
+ </body>
+</html>
